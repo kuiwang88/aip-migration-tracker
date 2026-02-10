@@ -51,7 +51,7 @@
         {
           "name": "Enable AI Skills UI for all customers",
           "status": "blocked",
-          "note": "AI model switched from 3 to 3.5 (<a href='https://docs.google.com/document/d/1lZSixwmHy9RJ6CLy3YXXA-ifiU06ds4bK7BBwOoAkjM/edit' target='_blank'>unsupported by region</a>)"
+          "note": "<a href='https://appian-eng.atlassian.net/browse/EA-4712' target='_blank'>AI model switched from 3 to 3.5 (unsupported by region)</a>"
         },
         {
           "name": "Identify sites for Step 4 migration",
