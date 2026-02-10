@@ -1,0 +1,128 @@
+{
+  "lastUpdated": "2026-02-10T18:35:00Z",
+  "steps": [
+    {
+      "id": 1,
+      "name": "Pre-rollout",
+      "description": "Bug fixes, data migration, testing",
+      "status": "completed",
+      "progress": 100,
+      "tasks": [
+        {
+          "name": "Fix sonnet-4 bug in eu-west-2",
+          "status": "completed"
+        },
+        {
+          "name": "Migrate data from AISD to AI Platform",
+          "status": "completed"
+        },
+        {
+          "name": "Performance testing",
+          "status": "completed"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Start Rollout",
+      "description": "Hotfix enabling copilot features",
+      "status": "in-progress",
+      "progress": 50,
+      "tasks": [
+        {
+          "name": "Hotfix copilot features on LCP",
+          "status": "in-progress"
+        },
+        {
+          "name": "Enable a!genAIModels() to use AI Platform",
+          "status": "blocked"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "UI Migration",
+      "description": "AI Skills UI uses AIP Models API",
+      "status": "in-progress",
+      "progress": 75,
+      "tasks": [
+        {
+          "name": "Enable AI Skills UI for all customers",
+          "status": "completed"
+        },
+        {
+          "name": "Identify sites for Step 4 migration",
+          "status": "in-progress"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Partial Rollout",
+      "description": "Selected sites migrate to AIP",
+      "status": "not-started",
+      "progress": 0,
+      "tasks": [
+        {
+          "name": "Enable FT for hand-picked sites",
+          "status": "not-started"
+        },
+        {
+          "name": "Monitor performance and latency",
+          "status": "not-started"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Full Rollout",
+      "description": "All customers (except high-usage)",
+      "status": "not-started",
+      "progress": 0,
+      "tasks": [
+        {
+          "name": "Transfer quotas from AISD to AIP",
+          "status": "not-started"
+        },
+        {
+          "name": "Enable FT by default",
+          "status": "not-started"
+        },
+        {
+          "name": "Keep IAG, CBA on old method",
+          "status": "not-started"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Large Customers",
+      "description": "Enable IAG, CBA, etc.",
+      "status": "not-started",
+      "progress": 0,
+      "tasks": [
+        {
+          "name": "Enable customer by customer",
+          "status": "not-started"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Feature Toggles",
+      "description": "Enable BWO AWS for 26.2",
+      "status": "not-started",
+      "progress": 0,
+      "tasks": [
+        {
+          "name": "Enable EGAI and DocExt FTs",
+          "status": "not-started"
+        },
+        {
+          "name": "Request AE exception",
+          "status": "not-started"
+        }
+      ]
+    }
+  ]
+}
