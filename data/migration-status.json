@@ -35,7 +35,8 @@
         },
         {
           "name": "Enable a!genAIModels() to use AI Platform",
-          "status": "blocked"
+          "status": "blocked",
+          "note": "Waiting for dependency resolution"
         }
       ]
     },
