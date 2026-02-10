@@ -31,7 +31,8 @@
       "tasks": [
         {
           "name": "Hotfix copilot features on LCP",
-          "status": "in-progress"
+          "status": "in-progress",
+          "link": "https://docs.google.com/document/d/1lZSixwmHy9RJ6CLy3YXXA-ifiU06ds4bK7BBwOoAkjM/edit"
         },
         {
           "name": "Enable a!genAIModels() to use AI Platform",
@@ -50,7 +51,7 @@
         {
           "name": "Enable AI Skills UI for all customers",
           "status": "blocked",
-          "note": "AI model switched from 3 to 3.5 (unsupported by region)"
+          "note": "AI model switched from 3 to 3.5 (<a href='https://docs.google.com/document/d/1lZSixwmHy9RJ6CLy3YXXA-ifiU06ds4bK7BBwOoAkjM/edit' target='_blank'>unsupported by region</a>)"
         },
         {
           "name": "Identify sites for Step 4 migration",
