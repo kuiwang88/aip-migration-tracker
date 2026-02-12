@@ -36,8 +36,8 @@
         },
         {
           "name": "Enable a!genAIModels() to use AI Platform",
-          "status": "blocked",
-          "note": "Waiting for dependency resolution"
+          "status": "cancelled",
+          "note": "Decision to not release it and keep it in the AISD"
         }
       ]
     },
