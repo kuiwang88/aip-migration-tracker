@@ -51,7 +51,19 @@
         {
           "name": "Enable AI Skills UI for all customers",
           "status": "blocked",
-          "note": "<a href='https://appian-eng.atlassian.net/browse/EA-4712' target='_blank'>AI model switched from 3 to 3.5 (unsupported by region)</a>"
+          "note": "<a href='https://appian-eng.atlassian.net/browse/EA-4712' target='_blank'>AI model switched from 3 to 3.5 (unsupported by region)</a>",
+          "subtasks": [
+            {
+              "name": "listModels not returning max_token for any model in staging",
+              "status": "in-progress",
+              "link": "https://appian-eng.atlassian.net/browse/AIPL-383"
+            },
+            {
+              "name": "GET /models endpoint should mark models not directly available in the currently configured region as \"inference_profile_required\"",
+              "status": "in-progress",
+              "link": "https://appian-eng.atlassian.net/browse/AIPL-395"
+            }
+          ]
         },
         {
           "name": "Identify sites for Step 4 migration",

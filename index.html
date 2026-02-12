@@ -241,6 +241,18 @@
                                             <span>${task.name}</span>
                                         </div>
                                         ${task.note ? `<div class="task-note">${task.note}</div>` : ''}
+                                        ${task.subtasks ? `
+                                            <div style="margin-left: 30px; margin-top: 8px;">
+                                                ${task.subtasks.map(subtask => `
+                                                    <div class="task" style="margin-bottom: 6px;">
+                                                        <div class="task-header">
+                                                            <div class="task-status ${subtask.status}"></div>
+                                                            <span><a href="${subtask.link}" target="_blank">${subtask.name}</a></span>
+                                                        </div>
+                                                    </div>
+                                                `).join('')}
+                                            </div>
+                                        ` : ''}
                                     </div>
                                 `).join('')}
                             </div>
