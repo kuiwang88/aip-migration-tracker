@@ -240,7 +240,7 @@
                                     <div class="task">
                                         <div class="task-header">
                                             <div class="task-status ${task.status}"></div>
-                                            <span>${task.name}</span>
+                                            <span>${task.link ? `<a href="${task.link}" target="_blank">${task.name}</a>` : task.name}</span>
                                         </div>
                                         ${task.note ? `<div class="task-note">${task.note}</div>` : ''}
                                         ${task.subtasks ? `
