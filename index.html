@@ -218,7 +218,7 @@
     <script>
         async function loadData() {
             try {
-                const response = await fetch('data/migration-status.json');
+                const response = await fetch('./data/migration-status.json');
                 const data = await response.json();
                 
                 // Update last updated time
