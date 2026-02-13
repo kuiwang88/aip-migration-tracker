@@ -105,15 +105,15 @@
           "status": "not-started"
         },
         {
-          "name": "Keep IAG, CBA on old method",
+          "name": "Keep high-usage customers on old method",
           "status": "not-started"
         }
       ]
     },
     {
       "id": 6,
-      "name": "Large Customers",
-      "description": "Enable IAG, CBA, etc.",
+      "name": "High-Usage Customers",
+      "description": "Enable remaining high-usage customers",
       "status": "not-started",
       "progress": 0,
       "tasks": [
