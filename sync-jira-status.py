@@ -17,7 +17,7 @@ DATA_FILE = "data/migration-status.json"
 
 def get_jira_status(ticket_key, email, api_token):
     """Fetch Jira ticket status via API."""
-    url = f"{JIRA_BASE_URL}/rest/api/3/issue/{ticket_key}?fields=status"
+    url = f"{JIRA_BASE_URL}/rest/api/2/issue/{ticket_key}?fields=status"
     
     # Create basic auth header
     credentials = f"{email}:{api_token}"
