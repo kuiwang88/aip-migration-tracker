@@ -32,7 +32,12 @@ def get_jira_status(ticket_key, email, api_token):
             data = json.loads(response.read().decode())
             return data["fields"]["status"]["name"]
     except HTTPError as e:
-        print(f"Error fetching {ticket_key}: {e}")
+        if e.code == 403:
+            print(f"Error: 403 Forbidden for {ticket_key}")
+            print(f"  Check that JIRA_EMAIL ({email}) is correct")
+            print(f"  Check that JIRA_API_TOKEN is valid")
+        else:
+            print(f"Error fetching {ticket_key}: {e}")
         return None
 
 def extract_jira_key(link):
