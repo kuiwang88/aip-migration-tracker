@@ -55,13 +55,18 @@
           "subtasks": [
             {
               "name": "listModels not returning max_token for any model in staging",
-              "status": "in-progress",
+              "status": "completed",
               "link": "https://appian-eng.atlassian.net/browse/AIPL-383"
             },
             {
               "name": "GET /models endpoint should mark models not directly available in the currently configured region as \"inference_profile_required\"",
+              "status": "completed",
+              "link": "https://appian-eng.atlassian.net/browse/AIPL-396"
+            },
+            {
+              "name": "Ambiguous Enabled field in AI Platform \"/\"models",
               "status": "in-progress",
-              "link": "https://appian-eng.atlassian.net/browse/AIPL-395"
+              "link": "https://appian-eng.atlassian.net/browse/AIPL-480"
             }
           ]
         },
