@@ -67,6 +67,11 @@
               "name": "Ambiguous Enabled field in AI Platform /models",
               "status": "in-progress",
               "link": "https://appian-eng.atlassian.net/browse/AIPL-480"
+            },
+            {
+              "name": "Error when executing GenAI Skill in eu-west-2 with Claude 3.7",
+              "status": "in-progress",
+              "link": "https://appian-eng.atlassian.net/browse/AIS-3301"
             }
           ]
         },
